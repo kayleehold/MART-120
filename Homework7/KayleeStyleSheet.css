@@ -1,0 +1,41 @@
+/* this just looks for any body tags in the page */
+body{
+    background-color:rgba(255, 255, 244, 0.842);
+    background-image: url('background-photo.jpg');
+    background-size: cover;
+}
+
+/* this is a class selector */
+.content{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    color:rgb(107, 35, 141);
+}
+
+/* this is a class selector */
+.title
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 42px;
+    color:rgb(30, 26, 44);
+}
+
+/* this is an id selector */
+#header{
+    color:rgb(2, 2, 20);
+}
+
+#textbodyslam{
+    color:rgb(46, 114, 241);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a{
+    text-decoration:none;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+}

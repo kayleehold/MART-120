@@ -1,0 +1,42 @@
+/* this just looks for any body tags in the page */
+body{
+    background-color:rgb(255, 255, 244);
+    background-image: url('https://github.com/kayleehold/MART-120/blob/02ccc8a1116bedb2c9cb82e837bc64860584fbc7/Homework7/codioful-formerly-gradienta-iCmRvu6VR6I-unsplash.jpg');
+    background-blend-mode: lighten;
+}
+
+/* this is a class selector */
+.content{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    color:rgb(107, 35, 141);
+}
+
+/* this is a class selector */
+.title
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 42px;
+    color:rgb(30, 26, 44);
+}
+
+/* this is an id selector */
+#home{
+    color:midnightblue;
+}
+
+/* this is an id selector */
+#contact{
+    color:darkslategray;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
