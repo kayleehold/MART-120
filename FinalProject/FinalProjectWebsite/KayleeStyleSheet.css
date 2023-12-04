@@ -1,0 +1,50 @@
+/* this just looks for any body tags in the page */
+body{
+    background-color:rgba(255, 255, 244, 0.842);
+    background-image: url('https://github.com/kayleehold/MART-120/blob/main/FinalProject/BackgroundPhoto.jpg?raw=true');
+    background-size: cover;
+    
+}
+
+/* this is a class selector */
+.content{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color:rgb(107, 35, 141);
+}
+
+/* this is a class selector */
+.title
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 42px;
+    color:rgb(30, 26, 44);
+}
+
+/* this is an id selector */
+#header{
+    color:rgb(145, 30, 101);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#textbodyslam{
+    color:rgb(46, 114, 241);
+    font-size: 20px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a{
+    text-decoration:none;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+}
+
+#center {
+    text-align: center;
+}
+
